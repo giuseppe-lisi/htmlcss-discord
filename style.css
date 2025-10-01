@@ -164,7 +164,7 @@ header {
 /* MAIN */
 
 section {
-    padding: 6em;
+    padding: 5em;
 }
 
 .big-column {
@@ -196,11 +196,11 @@ footer {
 
 .language-selection {
     margin: 1.5em 0;
+    gap: 0.5em;
 }
 
 #italian-flag {
     height: 1em;
-    margin-right: 0.5em;
 }
 
 .social-media-icons {
@@ -228,4 +228,24 @@ footer {
 
 .footer-page-end {
     justify-content: space-between;
+}
+
+/* Extras */
+
+img[src="./img/wave.svg"] {
+    vertical-align: top;
+}
+
+.svg-rotate {
+    transform: rotate(180deg);
+}
+
+.stars {
+    background-image: url("./img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.5em 1.5em 0 1.5em;
 }
