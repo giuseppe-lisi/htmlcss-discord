@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.dashed {
+    border: 2px dashed black;
+}
+
+.dashed-white {
+    border: 2px dashed white;
+}
+
+/* FINE CSS GENERICO */
+
+
+/* HEADER */
+
+header {
+    background-color: lightblue;
+    padding: 1em 0 0.2em 0;
+}
+
+.header-container {
+    min-height: 50px;
+}
+
+.header-column-links,
+.header-column-login,
+.header-column-logo {
+    align-items: center;
+}
+
+.header-column-logo {
+    width: 20%;
+    padding-left: 5px;
+}
+
+.header-column-links {
+    width: 60%;
+    justify-content: center;
+}
+
+.header-column-login {
+    width: 20%;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.jumbotron {
+    background-color: blue;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 1em 0;
+}
+
+.jumbotron-content {
+    background-color: violet;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 250px;
+}
+
+/* MAIN */
+
+section {
+    padding: 2em;
+}
+
+.big-column {
+    min-height: 300px;
+    width: 60%;
+    background-color: lightblue;
+}
+
+.small-column {
+    min-height: 300px;
+    width: 40%;
+    background-color: pink;
+}
+
+.green-box {
+    width: 100%;
+    background-color: green;
+    min-height: 600px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(57, 57, 57);
+}
+
+.footer-section {
+    padding: 7px 0 30px 0;
+}
+
+.footer-section-pink {
+    background-color: palevioletred;
+    min-height: 450px;
+    width: 30%;
+}
+
+.footer-section-green {
+    background-color: lightseagreen;
+    width: 70%;
+}
+
+.footer-box-green {
+    width: 25%;
+}
+
+.footer-hr-strikethrough {
+    height: 2px;
+    color: white;
+}
+
+.footer-page-end {
+    background-color: aquamarine;
+    min-height: 3em;
+    margin-top: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: 5px;
+    background-color: hotpink;
+    color: white;
+}
+
