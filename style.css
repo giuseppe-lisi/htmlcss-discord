@@ -198,10 +198,11 @@ footer {
 .language-selection {
     margin: 1.5em 0;
     gap: 0.5em;
+    align-items: baseline;
 }
 
-#italian-flag {
-    height: 1em;
+.italian-flag {
+    height: 0.7em;
 }
 
 .social-media-icons {
