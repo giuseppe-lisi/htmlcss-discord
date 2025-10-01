@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    line-height: 1.5em;
 }
 
 body {
@@ -11,9 +10,26 @@ body {
 }
 
 h1 {
-    margin-bottom: 1em;
-    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;    
+    line-height: 1.2em;
 }
+
+h2 {
+    margin-bottom: 0.5em;
+    font-size: 2em;    
+    line-height: 1.2em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.big-column > img,
+.body-big-box > img {
+    width: 100%;
+}
+
 
 .wrapper {
     max-width: 1000px;
@@ -25,7 +41,7 @@ h1 {
 }
 
 .bg-gray {
-    background-color: gray;
+    background-color: #F6F6F6;
 }
 
 .bg-white {
@@ -36,12 +52,20 @@ h1 {
     background-color: #23272A;
 }
 
+.bg-light-blue {
+    background-color: #8EA1E2;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .text-white {
-    color: white;
+    color: whitesmoke;
 }
 
 .text-black {
-    color: black;
+    color: #252729;
 }
 
 .dashed {
@@ -62,7 +86,6 @@ h1 {
     padding: 0.6em 1.5em;
     border-radius: 25px;
 }
-
 
 /* FINE CSS GENERICO */
 
@@ -93,6 +116,7 @@ header {
 .header-column-links > ul {
     list-style-type: none;
     gap: 3em;
+    font-size: 0.8em;
 }
 
 .header-column-login {
@@ -101,9 +125,10 @@ header {
     padding-right: 5px;
 }
 
-.login-button {
+.small-button {
     padding: 0.3em 0.5em;
     border-radius: 25px;
+    font-size: 0.8em;
 }
 
 .jumbotron {
@@ -111,7 +136,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 550px;
+    height: 513px;
     align-items: center;
 }
 
@@ -128,22 +153,15 @@ section {
 }
 
 .big-column {
-    min-height: 300px;
+    padding: 3em;
     width: 60%;
-    background-color: lightblue;
 }
 
 .small-column {
-    min-height: 300px;
+    padding: 5em;
     width: 40%;
-    background-color: pink;
 }
 
-.green-box {
-    width: 100%;
-    background-color: green;
-    min-height: 600px;
-}
 
 /* FOOTER */
 
